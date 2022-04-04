@@ -1,0 +1,13 @@
+.logout {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    width: 70%;
+    color: #2F4F4F;
+    text-align: right;
+    background: #F0FFFF;
+    margin: auto;
+}
+
+.logout a {
+    color: #2F4F4F;
+    text-decoration: none;
+}

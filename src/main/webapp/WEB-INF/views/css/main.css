@@ -1,0 +1,32 @@
+.main {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    width: 70%;
+    color: #2F4F4F;
+    font-size: 40px;
+    text-align: center;
+    border-collapse: collapse;
+    background: #F0FFFF;
+    margin: auto;
+}
+.main th {
+    color: #2F4F4F;
+    border-bottom: 1px solid black;
+    padding: 12px 17px;
+    font-size: 14px;
+}
+.main td {
+    color: #2F4F4F;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 7px 17px;
+    font-size: 14px;
+}
+.main tr:last-child td {
+    border-bottom: none;
+}
+.main td:last-child {
+    border-right: none;
+}
+.main tr:hover td {
+    text-decoration: underline;
+}
